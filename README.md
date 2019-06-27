@@ -1,4 +1,6 @@
-# gin-csrf [![Build Status](https://travis-ci.org/utrack/gin-csrf.svg?branch=master)](https://travis-ci.org/utrack/gin-csrf)
+# gin-csrf
+
+[![CircleCI](https://circleci.com/gh/vuongggggg/gin-csrf/tree/master.svg?style=svg)](https://circleci.com/gh/vuongggggg/gin-csrf/tree/master)
 
 CSRF protection middleware for [Gin]. This middleware has to be used with [gin-contrib/sessions](https://github.com/gin-contrib/sessions).
 
