@@ -122,12 +122,9 @@ func GetToken(c *gin.Context) string {
 		return t.(string)
 	}
 
-	salt, ok := session.Get(csrfSalt).(string)
-	if !ok {
-		salt = uniuri.New()
-		session.Set(csrfSalt, salt)
-		session.Save()
-	}
+	salt := uniuri.New()
+	session.Set(csrfSalt, salt)
+	session.Save()
 	token := tokenize(secret, salt)
 	c.Set(csrfToken, token)
 
