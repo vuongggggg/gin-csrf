@@ -1,6 +1,6 @@
 # gin-csrf
 
-[![CircleCI](https://circleci.com/gh/vuongggggg/gin-csrf/tree/master.svg?style=svg)](https://circleci.com/gh/vuongggggg/gin-csrf/tree/master)
+[![CircleCI](https://circleci.com/gh/vuongggggg/gin-csrf/tree/master.svg?style=svg)](https://circleci.com/gh/vuongggggg/gin-csrf/tree/master) [![GoDoc](https://godoc.org/github.com/vuongggggg/gin-csrf?status.svg)](https://godoc.org/github.com/vuongggggg/gin-csrf)
 
 CSRF protection middleware for [Gin]. This middleware has to be used with [gin-contrib/sessions](https://github.com/gin-contrib/sessions).
 
