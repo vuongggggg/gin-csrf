@@ -1,6 +1,7 @@
 # gin-csrf
 [![Git Actions](https://github.com/vuongggggg/gin-csrf/workflows/Go/badge.svg)](https://github.com/vuongggggg/gin-csrf/workflows/Go/badge.svg)
 [![Build Status](https://travis-ci.org/vuongggggg/gin-csrf.svg?branch=master)](https://travis-ci.org/vuongggggg/gin-csrf) [![CircleCI](https://circleci.com/gh/vuongggggg/gin-csrf/tree/master.svg?style=svg)](https://circleci.com/gh/vuongggggg/gin-csrf/tree/master) [![GoDoc](https://godoc.org/github.com/vuongggggg/gin-csrf?status.svg)](https://godoc.org/github.com/vuongggggg/gin-csrf)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvuongggggg%2Fgin-csrf.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvuongggggg%2Fgin-csrf?ref=badge_shield)
 
 CSRF protection middleware for [Gin]. This middleware has to be used with [gin-contrib/sessions](https://github.com/gin-contrib/sessions).
 
@@ -58,3 +59,7 @@ func main() {
 
 [Gin]: http://gin-gonic.github.io/gin/
 [gin-sessions]: https://github.com/utrack/gin-sessions
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvuongggggg%2Fgin-csrf.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvuongggggg%2Fgin-csrf?ref=badge_large)
